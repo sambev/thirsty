@@ -11,15 +11,15 @@ Add it to your path and call it anywhere.
 
 What it does (You can just read it.  It is short.)
 ------------
-Downloads the master branch of https://github.com/sambev/basicflask.git as zip
-unzips it
-renames it to whatever you supplied as name
-deletes zip
-installs python dependencies with pip
-installs bower dependencies with bower
-installs npm dependencies with npm
-
-The end.
+Downloads the master branch of https://github.com/sambev/basicflask.git as zip  
+Unzips it  
+Renames it to whatever you supplied as name  
+Deletes zip  
+Installs python dependencies with pip  
+Installs bower dependencies with bower  
+Installs npm dependencies with npm  
+  
+The end.  
 
 You should use virutualenv with this.
 
