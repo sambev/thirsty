@@ -7,7 +7,11 @@ setup(
     author='Sam Beveridge',
     author_email='sam.bev87@gmail.com',
     url='http://github.com/sambev/thirsty',
-    packages=['thirsty'],
+    packages=[
+        'thirsty',
+        'thirsty/scripts',
+        'thirsty/templates'
+    ],
     scripts=['bin/thirsty'],
     license='LISCENSE.txt',
     description='flask project creation and helper',
