@@ -11,9 +11,10 @@ application with Flask, Grunt, and Foundation that has the following::
 Details about the application can be found here::
 https://github.com/sambev/basicflask
 
-Run it
-=======
-`thirsty new project <name>`
+Supported commands
+==================
+`thirsty new project <name>` - creates an entirely new bootstrapped project
+`thirsty new view <name>` - creates a method view with empty CRUD methods
 
 What it does
 =============
@@ -26,11 +27,11 @@ Installs bower dependencies with bower
 Installs npm dependencies with npm
 The end.
 
-You should use virutualenv with this.
 
 Dependencies
 ============
 Python 2.7.5
+Virtualenv 1.10.1
 Ruby 2.0.0p247 - for sass, hopefully replacing with python soon
 Bower 1.2.8
 NPM 1.3.14

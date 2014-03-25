@@ -3,7 +3,7 @@ from pip.req import parse_requirements
 
 setup(
     name='thirsty',
-    version='0.0.1',
+    version='0.0.2',
     author='Sam Beveridge',
     author_email='sam.bev87@gmail.com',
     url='http://github.com/sambev/thirsty',

@@ -1,0 +1,21 @@
+=============
+Commands
+=============
+
+New Project
+=============
+`thirsty new project <name>`
+Create a new bootstrapped project in a folder <name>
+Project with have::
+    sass compliation and linting (grunt tasks too!)
+    pep8 linting (also grunt tasked)
+    foundation grid (ready for customizing)
+    angularjs
+    basic auth code examples
+    basic tools for auth
+    basic blueprints
+
+
+New Method View
+===============
+Create a new method view <name> with empty CRUD methods

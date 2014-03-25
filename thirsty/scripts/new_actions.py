@@ -8,7 +8,8 @@ def newView(name):
     """Create a new basic new view with the given name
     :param name - name of the view
     """
-    with open('thirsty/templates/base_view.py') as f:
+    py_path = os.environ['VIRTUAL_ENV']
+    with open(py_path + '/lib/python2.7/site-packages/thirsty/templates/base_view.py') as f:
         try:
             file = f.read()
             new_file = file.replace('Name', name.title())
